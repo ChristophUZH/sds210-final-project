@@ -1,7 +1,187 @@
-1. Project Title & Description: A one or two-sentence summary of the spatial question you are answering.
+# ZüriWieNeu – Spatial Data Analysis Project
 
-2. Data Sources: Explicit links to where the raw open data was obtained.
+## Overview
 
-3. Setup Instructions: Exactly what software and libraries are required to run the code (e.g., pointing to an environment.yml or requirements.txt file).
+This project was developed as part of the course **SDS210 – Programming with Spatial Data (FS2026)** at the **Department of Geography, University of Zurich (UZH)**.
 
-4. Execution Order: Clear instructions on how to run the project (e.g., “Run the data_cleaning.ipynb notebook first, followed by spatial_analysis.ipynb”).
+The project analyses and visualises the spatial distribution and temporal development of reports submitted through the Zurich city platform **ZüriWieNeu** between **2013 and 2026**.
+
+ZüriWieNeu is a public reporting platform where residents of Zurich can report damages or issues related to the city infrastructure.
+
+---
+
+# Project Structure
+
+```text
+sds210-final-project/
+│
+├── data/
+│   ├── raw/                 # Raw downloaded datasets
+│   └── processed/           # Cleaned and processed datasets
+│
+├── notebooks/
+│   └── programming_project_ZüriWieNeu.ipynb
+│
+├── outputs/                 # Generated plots and visualisations
+│
+├── environment.yml          # Conda environment configuration
+│
+└── README.md
+```
+
+---
+
+# Data Sources
+
+The raw datasets are **not included** in this repository and must be downloaded manually.
+
+## 1. ZüriWieNeu Reports
+
+Contains all citizen reports submitted via the ZüriWieNeu platform.
+
+Dataset:
+
+urlCity of Zurich Open Data – ZüriWieNeu Reports[https://data.stadt-zuerich.ch/dataset/geo\_zueri\_wie\_neu](https://data.stadt-zuerich.ch/dataset/geo_zueri_wie_neu)
+
+## 2. Statistical Districts of Zurich
+
+Spatial boundary data for Zurich districts.
+
+Dataset:
+
+urlCity of Zurich Open Data – Statistical Districts[https://data.stadt-zuerich.ch/dataset/geo\_statistische\_quartiere](https://data.stadt-zuerich.ch/dataset/geo_statistische_quartiere)
+
+## 3. Population Data of the City of Zurich
+
+Population statistics.
+
+Dataset:
+
+urlCity of Zurich Population Statistics[https://www.stadt-zuerich.ch/content/dam/web/de/politik-verwaltung/statistik-und-daten/daten/bevoelkerung/BEV321T3211\_auslaendische-Wohnbevoelkerung\_Bevoelkerung\_nach-Herkunft-Stadtkreis-Stadtquartier.xlsx](https://www.stadt-zuerich.ch/content/dam/web/de/politik-verwaltung/statistik-und-daten/daten/bevoelkerung/BEV321T3211_auslaendische-Wohnbevoelkerung_Bevoelkerung_nach-Herkunft-Stadtkreis-Stadtquartier.xlsx)
+
+---
+
+# Installation
+
+## Prerequisites
+
+Make sure the following software is installed:
+
+- Python 3.10+
+- Conda / Miniconda
+- Git
+- JupyterLab
+
+# Setup Instructions
+
+## 1. Clone the Repository
+
+```bash
+git clone https://github.com/ChristophUZH/sds210-final-project
+cd sds210-final-project
+```
+
+## 2. Create the Conda Environment
+
+```bash
+conda env create -f environment.yml
+```
+
+## 3. Activate the Environment
+
+```bash
+conda activate sds210
+```
+
+## 4. Start JupyterLab
+
+```bash
+jupyter lab
+```
+
+---
+
+# Running the Project
+
+## Step 1 – Download Raw Data
+
+Download all datasets listed in the **Data Sources** section.
+
+## Step 2 – Store Data
+
+Place the downloaded files into:
+
+```text
+data/raw/
+```
+
+## Step 3 – Run the Notebook
+
+Open and execute:
+
+```text
+notebooks/programming_project_ZüriWieNeu.ipynb
+```
+
+The notebook performs:
+
+- data cleaning
+- preprocessing
+- spatial analysis
+- temporal analysis
+- map creation
+- visualisation generation
+
+---
+
+# Outputs
+
+After execution, the project generates:
+
+## Processed Data
+
+Stored in:
+
+```text
+data/processed/
+```
+
+## Visualisations and Plots
+
+Stored in:
+
+```text
+outputs/
+```
+
+Examples include:
+
+- spatial heatmaps
+- district comparison plots
+- temporal trend charts
+- report density visualisations
+
+# Notes
+
+- Raw data files are excluded from the repository due to file size and licensing considerations.
+- Ensure all datasets are stored in the correct folder structure before running the notebook.
+- Some visualisations may require an internet connection for basemap tiles.
+
+---
+
+# Author
+
+**Christoph Hüppi**\
+Department of Geography\
+University of Zurich (UZH)
+
+GitHub Repository:
+
+urlChristophUZH/sds210-final-project[https://github.com/ChristophUZH/sds210-final-project](https://github.com/ChristophUZH/sds210-final-project)
+
+---
+
+# License
+
+This project was created for academic purposes as part of the SDS210 course at the University of Zurich.
+
