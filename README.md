@@ -41,7 +41,7 @@ Contains all citizen reports submitted via the ZüriWieNeu platform.
 
 Dataset:
 
-urlCity of Zurich Open Data – ZüriWieNeu Reports[https://data.stadt-zuerich.ch/dataset/geo\_zueri\_wie\_neu](https://data.stadt-zuerich.ch/dataset/geo_zueri_wie_neu)
+City of Zurich Open Data – ZüriWieNeu Reports: [https://data.stadt-zuerich.ch/dataset/geo\_zueri\_wie\_neu](https://data.stadt-zuerich.ch/dataset/geo_zueri_wie_neu)
 
 ## 2. Statistical Districts of Zurich
 
@@ -49,7 +49,7 @@ Spatial boundary data for Zurich districts.
 
 Dataset:
 
-urlCity of Zurich Open Data – Statistical Districts[https://data.stadt-zuerich.ch/dataset/geo\_statistische\_quartiere](https://data.stadt-zuerich.ch/dataset/geo_statistische_quartiere)
+City of Zurich Open Data – Statistical Districts: [https://data.stadt-zuerich.ch/dataset/geo\_statistische\_quartiere](https://data.stadt-zuerich.ch/dataset/geo_statistische_quartiere)
 
 ## 3. Population Data of the City of Zurich
 
@@ -57,7 +57,7 @@ Population statistics.
 
 Dataset:
 
-urlCity of Zurich Population Statistics[https://www.stadt-zuerich.ch/content/dam/web/de/politik-verwaltung/statistik-und-daten/daten/bevoelkerung/BEV321T3211\_auslaendische-Wohnbevoelkerung\_Bevoelkerung\_nach-Herkunft-Stadtkreis-Stadtquartier.xlsx](https://www.stadt-zuerich.ch/content/dam/web/de/politik-verwaltung/statistik-und-daten/daten/bevoelkerung/BEV321T3211_auslaendische-Wohnbevoelkerung_Bevoelkerung_nach-Herkunft-Stadtkreis-Stadtquartier.xlsx)
+City of Zurich Population Statistics: [https://www.stadt-zuerich.ch/content/dam/web/de/politik-verwaltung/statistik-und-daten/daten/bevoelkerung/BEV321T3211\_auslaendische-Wohnbevoelkerung\_Bevoelkerung\_nach-Herkunft-Stadtkreis-Stadtquartier.xlsx](https://www.stadt-zuerich.ch/content/dam/web/de/politik-verwaltung/statistik-und-daten/daten/bevoelkerung/BEV321T3211\_auslaendische-Wohnbevoelkerung\_Bevoelkerung\_nach-Herkunft-Stadtkreis-Stadtquartier.xlsx)
 
 ---
 
@@ -67,10 +67,8 @@ Dataset:
 
 Make sure the following software is installed:
 
-- Python 3.10+
-- Conda / Miniconda
-- Git
-- JupyterLab
+- Conda / Miniconda: [https://www.anaconda.com/docs/getting-started/miniconda/install/overview](https://www.anaconda.com/docs/getting-started/miniconda/install/overview)
+- Git: [https://git-scm.com/install/](hhttps://git-scm.com/install/)
 
 # Setup Instructions
 
@@ -84,13 +82,13 @@ cd sds210-final-project
 ## 2. Create the Conda Environment
 
 ```bash
-conda env create -f environment.yml
+conda env create -f environment-sds210-final-project.yml
 ```
 
 ## 3. Activate the Environment
 
 ```bash
-conda activate sds210
+conda activate sds210-final-project
 ```
 
 ## 4. Start JupyterLab
@@ -161,11 +159,12 @@ Examples include:
 - temporal trend charts
 - report density visualisations
 
+---
+
 # Notes
 
 - Raw data files are excluded from the repository due to file size and licensing considerations.
 - Ensure all datasets are stored in the correct folder structure before running the notebook.
-- Some visualisations may require an internet connection for basemap tiles.
 
 ---
 
@@ -177,7 +176,7 @@ University of Zurich (UZH)
 
 GitHub Repository:
 
-urlChristophUZH/sds210-final-project[https://github.com/ChristophUZH/sds210-final-project](https://github.com/ChristophUZH/sds210-final-project)
+ChristophUZH/sds210-final-project: [https://github.com/ChristophUZH/sds210-final-project](https://github.com/ChristophUZH/sds210-final-project)
 
 ---
 
