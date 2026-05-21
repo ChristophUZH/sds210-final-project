@@ -12,19 +12,21 @@ ZüriWieNeu is a public reporting platform where residents of Zurich can report 
 
 # Project Structure
 
-```text
+```
 sds210-final-project/
 │
 ├── data/
 │   ├── raw/                 # Raw downloaded datasets
 │   └── processed/           # Cleaned and processed datasets
 │
+├── metadata/                # Metadata, data dictionaries, and documentation
+│
 ├── notebooks/
 │   └── programming_project_ZüriWieNeu.ipynb
 │
 ├── outputs/                 # Generated plots and visualisations
 │
-├── environment.yml          # Conda environment configuration
+├── environment-sds210-final-project.yml   # Conda environment configuration
 │
 └── README.md
 ```
