@@ -68,30 +68,45 @@ City of Zurich Population Statistics: [https://www.stadt-zuerich.ch/content/dam/
 Make sure the following software is installed:
 
 - Conda / Miniconda: [https://www.anaconda.com/docs/getting-started/miniconda/install/overview](https://www.anaconda.com/docs/getting-started/miniconda/install/overview)
-- Git: [https://git-scm.com/install/](hhttps://git-scm.com/install/)
+- Git: - Git: [https://git-scm.com/install/](https://git-scm.com/install/)
 
-# Setup Instructions
+# Setup Instructions in the Terminal
 
-## 1. Clone the Repository
+## 1. Navigate to your desired location
+
+```bash
+cd <path-to-desired location>
+```
+
+## 2. Clone the Repository
 
 ```bash
 git clone https://github.com/ChristophUZH/sds210-final-project
-cd sds210-final-project
+
 ```
 
-## 2. Create the Conda Environment
+## 3. Enter the repository folder
+
+```bash
+cd <path-to-ds210-final-project-repository-folder>
+
+ls -a
+
+```
+
+## 4. Create the Conda Environment
 
 ```bash
 conda env create -f environment-sds210-final-project.yml
 ```
 
-## 3. Activate the Environment
+## 5. Activate the Environment
 
 ```bash
 conda activate sds210-final-project
 ```
 
-## 4. Start JupyterLab
+## 6. Start JupyterLab
 
 ```bash
 jupyter lab
@@ -113,7 +128,7 @@ Place the downloaded files into:
 data/raw/
 ```
 
-## Step 3 – Run the Notebook
+## Step 3 – Run the Notebook in JupyterLab
 
 Open and execute:
 
