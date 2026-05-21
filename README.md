@@ -1,12 +1,14 @@
-# ZüriWieNeu – Spatial Data Analysis Project
+# SDS210 ZüriWieNeu – Spatial Data Analysis Project
 
 ## Overview
 
 This project was developed as part of the course **SDS210 – Programming with Spatial Data (FS2026)** at the **Department of Geography, University of Zurich (UZH)**.
 
-The project analyses and visualises the spatial distribution and temporal development of reports submitted through the Zurich city platform **ZüriWieNeu** between **2013 and 2026**.
+The project analyses and visualizes the spatial distribution and temporal development of reports submitted through the Zurich city platform **ZüriWieNeu** between **2013 and 2026**.
 
 ZüriWieNeu is a public reporting platform where residents of Zurich can report damages or issues related to the city infrastructure.
+
+ZüriWieNeu: [https://www.zueriwieneu.ch/](https://www.zueriwieneu.ch/)
 
 ---
 
@@ -70,7 +72,7 @@ City of Zurich Population Statistics: [https://www.stadt-zuerich.ch/content/dam/
 Make sure the following software is installed:
 
 - Conda / Miniconda: [https://www.anaconda.com/docs/getting-started/miniconda/install/overview](https://www.anaconda.com/docs/getting-started/miniconda/install/overview)
-- Git: - Git: [https://git-scm.com/install/](https://git-scm.com/install/)
+- Git: [https://git-scm.com/install/](https://git-scm.com/install/)
 
 # Setup Instructions in the Terminal
 
@@ -141,11 +143,11 @@ notebooks/programming_project_ZüriWieNeu.ipynb
 The notebook performs:
 
 - data cleaning
-- preprocessing
+- data processing
 - spatial analysis
 - temporal analysis
 - map creation
-- visualisation generation
+- data visualisations
 
 ---
 
@@ -171,10 +173,10 @@ outputs/
 
 Examples include:
 
-- spatial heatmaps
+- heatmaps
 - district comparison plots
-- temporal trend charts
-- report density visualisations
+- temporal evolution plots
+- comparison of absolute and relative values
 
 ---
 
@@ -192,12 +194,11 @@ Department of Geography\
 University of Zurich (UZH)
 
 GitHub Repository:
-
 ChristophUZH/sds210-final-project: [https://github.com/ChristophUZH/sds210-final-project](https://github.com/ChristophUZH/sds210-final-project)
 
 ---
 
 # License
 
-This project was created for academic purposes as part of the SDS210 course at the University of Zurich.
+This project was created for academic purposes as part of the SDS210 FS2026 course at the University of Zurich.
 
