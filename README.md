@@ -51,7 +51,7 @@ City of Zurich Open Data – ZüriWieNeu Reports: [https://data.stadt-zuerich.ch
 
 Spatial boundary data for Zurich districts.
 
-Dataset:
+Dataset **csv!**:
 
 City of Zurich Open Data – Statistical Districts: [https://data.stadt-zuerich.ch/dataset/geo\_statistische\_quartiere](https://data.stadt-zuerich.ch/dataset/geo_statistische_quartiere)
 
