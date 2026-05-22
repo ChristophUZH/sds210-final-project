@@ -102,6 +102,12 @@ ls -a
 
 ```bash
 conda env create -f environment-sds210-final-project.yml
+
+If this file above does not work, this file might work.
+
+conda env create -f environment-sds210-final-project_safty.yml
+
+Otherwise use an LLM to solve the problem.
 ```
 
 ## 5. Activate the Environment
